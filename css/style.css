@@ -174,7 +174,7 @@ header .icon{
     box-sizing: border-box;
 }
 
-.contato input[type=submit] {
+.contato input[type=button] {
     width: 100%;
     background-color: #0366d6;;
     color: white;
@@ -185,7 +185,7 @@ header .icon{
     cursor: pointer;
   }
 
-.contato form input[type=submit]:hover {
+.contato form input[type=button]:hover {
     background-color: #00397a;
   }
 

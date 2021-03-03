@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silas Castro Web</title>
+    link
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
     
@@ -122,16 +125,15 @@
             <article class="contato" id="contato">
                 <h2>Contato </h2>
                 <div id="formulario">
-                    <form action="/enviar" method="POST">
+                    <form method="POST" action="index.html">
                         <label for="">Email</label>
-                        <input placeholder="Seu Email" type="email" name="" id="">
+                        <input placeholder="Seu Email" type="email" name="email" id="">
                         <br>
                         <label for="">Mensagem</label>
-                        <textarea placeholder="sua mensagem..." name="" id="" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Enviar 📨" >
+                        <textarea placeholder="sua mensagem..." name="body" id="" cols="30" rows="10"></textarea>
+                        <input id="submitEmail" type="button" value="Enviar 📨" >
                     </form>
                 </div>
-                
             </article>
             
         </section>
